@@ -4,3 +4,4 @@ Slides available on Slurm github repo: https://github.com/southbridgeio/slurm-sc
 Basic abstracitons:
 - Lesson 1: Pod
 - Lesson 2: ReplicaSet
+- Lesson 3: Deployments
