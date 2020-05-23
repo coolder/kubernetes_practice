@@ -16,7 +16,27 @@ _Pods_ are the smallest deployable units of computing that can be created and ma
 
 ## Practice log
 - run quick start pod within 1_quick_start_pod.yaml template. Pod template got from [off. doc: https://kubernetes.io/docs/concepts/workloads/pods/pod-overview/#pod-templates].
+```
+# create your first pod
 $ kubectl create -f 1_quick_start_pod.yaml
+
+# look at pod configuration
+$ kubectl describe pod hello | less
+
+# check that pod executed correctly
+$ kubectl logs hello
+
+# clean up
+$ kubectl delete pod hello
+
+```
+
+- run test nginx pod
+```
+$ kubectl create -f 2_simple_nginx_pod.yaml
+$ kubectl describe po
+$ kubectl delete po nginx
+```
 
 ## Notes:
 ### New commands:
