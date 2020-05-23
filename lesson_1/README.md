@@ -41,6 +41,7 @@ $ kubectl delete po nginx
 ## Notes:
 ### New commands:
 - kubectl create -f <template_file_name>
+- kubectl get <resource_type> <resource_name>
 - kubectl describe <abstraction> <name>
 - kubectl logs <pod_name>
 - kubectl delete <abstraction> <name>
