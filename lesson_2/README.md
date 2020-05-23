@@ -12,6 +12,13 @@ A ReplicaSet ensures that a specified number of pod replicas are running at any 
 ### Relation between ReplicaSet selector and Pod labels
 Replica set working with only pod's which have same label specified in selector ReplicaSet field.
 
+## Template
+### Related fields
+- spec.replicas - quantity of pod replicas defined with the template
+- spec.selector - define observer rules.
+- spec.selector.matchLabel - defines pod's label names to observe.
+- spec.template - describe Pod template
+
 ## Practice log
 - run ReplicaSet from official documentation
 ```

@@ -4,6 +4,14 @@
 _Pods_ are the smallest deployable units of computing that can be created and managed in Kubernetes. It is a group of one or more containers with shared storage/network, and a specification for how to run the containers. Containers within a Pod share an IP address and port space, and can find each other via localhost.
 [Official documentation] (https://kubernetes.io/docs/concepts/workloads/pods/pod/)
 
+## Template
+### Related fields
+- apiVersion - version of resource template *required*
+- kind - kind of the resource described with the template *required*
+- metadata.name - resource name. *required*
+- spec - resource configuration itself
+- spec.containers - containers description.
+
 ## Best practices:
 - one Pod one Container
 - Pod should execute one function (as same as docker image)
