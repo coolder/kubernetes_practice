@@ -8,6 +8,15 @@ Slides available on Slurm github repo: https://github.com/southbridgeio/slurm-sc
 - Lesson 3: Deployments
 - Lesson 4: Probes
 
+## Featured
+- Lesson 5: ConfigMap
+- Lesson 6: Secrets
+- Lesson 7: Service
+- Lesson 8: Job, CronJob
+- Lesson 9: Network
+- Lesson 10: Ingress
+- Lesson 11: DataStore. Persistent Volume (PV). Persistent Volume Claim (PVC)
+
 # Feature reading:
 https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#pod-lifetime
 There are different kinds of resources for creating Pods:
